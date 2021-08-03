@@ -54,8 +54,6 @@ Array.prototype.transpose = function() {
     
     for (let i  = 0; i < this.length; i++) {
         for (let j = 0; j < this[0].length; j++) {
-            // console.log(arr)
-            // console.log([i, j])
             arr[j].push(this[i][j]);
         }
     }
